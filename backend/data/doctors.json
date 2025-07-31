@@ -1,0 +1,67 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Aesthetic Heart Dermatology & Cardiology Clinic",
+      "specialty": "1 Dermatologist",
+      "experience": "11 - 13 years experience",
+      "location": "Jayanagar",
+      "consultationFee": 800,
+      "rating": 97,
+      "patientStories": 159,
+      "isAvailableToday": false,
+      "isClinic": true
+    },
+    {
+      "id": "2",
+      "name": "Dr. Sheelavathi Natraj",
+      "specialty": "Dermatologist",
+      "experience": "21 years experience overall",
+      "location": "JP Nagar,Bangalore",
+      "consultationFee": 800,
+      "rating": 94,
+      "patientStories": 1506,
+      "isAvailableToday": true,
+      "clinicName": "Sapphire Skin And Aesthetics Clinic",
+      "additionalClinics": 1
+    },
+    {
+      "id": "3",
+      "name": "Dr. Rajesh Kumar",
+      "specialty": "Dermatologist",
+      "experience": "15 years experience overall",
+      "location": "Koramangala, Bangalore",
+      "consultationFee": 600,
+      "rating": 92,
+      "patientStories": 890,
+      "isAvailableToday": true,
+      "clinicName": "Skin Care Clinic",
+      "additionalClinics": 2
+    },
+    {
+      "id": "4",
+      "name": "Dr. Priya Sharma",
+      "specialty": "Dermatologist",
+      "experience": "18 years experience overall",
+      "location": "Indiranagar, Bangalore",
+      "consultationFee": 900,
+      "rating": 96,
+      "patientStories": 1200,
+      "isAvailableToday": false,
+      "clinicName": "Advanced Dermatology Center",
+      "additionalClinics": 0
+    },
+    {
+      "id": "5",
+      "name": "Bangalore Skin Clinic",
+      "specialty": "2 Dermatologists",
+      "experience": "8 - 12 years experience",
+      "location": "Whitefield",
+      "consultationFee": 750,
+      "rating": 89,
+      "patientStories": 567,
+      "isAvailableToday": true,
+      "isClinic": true
+    }
+  ]
+}

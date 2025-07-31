@@ -154,17 +154,17 @@ const PractoClone: React.FC = () => {
                 <span className="mr-4">Popular searches:</span>
                 <button 
                   onClick={() => setCurrentPage('doctors')}
-                  className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full mr-2 text-sm hover:bg-opacity-30"
+                  className="bg-white text-gray-700 bg-opacity-20 px-3 py-1 rounded-full mr-2 text-sm hover:bg-opacity-30"
                 >
                   Dermatologist
                 </button>
-                <button className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full mr-2 text-sm hover:bg-opacity-30">
+                <button className="bg-white text-gray-700 bg-opacity-20 px-3 py-1 rounded-full mr-2 text-sm hover:bg-opacity-30">
                   Pediatrician
                 </button>
-                <button className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full mr-2 text-sm hover:bg-opacity-30">
+                <button className="bg-white text-gray-700 bg-opacity-20 px-3 py-1 rounded-full mr-2 text-sm hover:bg-opacity-30">
                   Gynecologist/Obstetrician
                 </button>
-                <button className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm hover:bg-opacity-30">
+                <button className="bg-white text-gray-700 bg-opacity-20 px-3 py-1 rounded-full text-sm hover:bg-opacity-30">
                   Orthopedist
                 </button>
               </div>
@@ -176,38 +176,38 @@ const PractoClone: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-6 gap-6 mt-20">
           <div className="text-center text-white">
             <div className="bg-white bg-opacity-20 rounded-lg p-4 mb-2 hover:bg-opacity-30 transition-all cursor-pointer">
-              <Stethoscope className="w-8 h-8 mx-auto mb-2" />
+              <Stethoscope className="w-8 h-8 mx-auto mb-2 text-blue-600" />
             </div>
             <span className="text-sm">Consult with a doctor</span>
           </div>
           <div className="text-center text-white">
             <div className="bg-white bg-opacity-20 rounded-lg p-4 mb-2 hover:bg-opacity-30 transition-all cursor-pointer">
-              <ShoppingCart className="w-8 h-8 mx-auto mb-2" />
+              <ShoppingCart className="w-8 h-8 mx-auto mb-2 text-blue-600" />
             </div>
             <span className="text-sm">Order Medicines</span>
           </div>
           <div className="text-center text-white">
             <div className="bg-white bg-opacity-20 rounded-lg p-4 mb-2 hover:bg-opacity-30 transition-all cursor-pointer">
-              <FileText className="w-8 h-8 mx-auto mb-2" />
+              <FileText className="w-8 h-8 mx-auto mb-2 text-blue-600" />
             </div>
             <span className="text-sm">View medical records</span>
           </div>
           <div className="text-center text-white">
             <div className="bg-white bg-opacity-20 rounded-lg p-4 mb-2 hover:bg-opacity-30 transition-all cursor-pointer relative">
-              <TestTube className="w-8 h-8 mx-auto mb-2" />
+              <TestTube className="w-8 h-8 mx-auto mb-2 text-blue-600" />
               <span className="absolute -top-1 -right-1 bg-green-500 text-white text-xs px-2 py-1 rounded">New</span>
             </div>
             <span className="text-sm">Book test</span>
           </div>
           <div className="text-center text-white">
             <div className="bg-white bg-opacity-20 rounded-lg p-4 mb-2 hover:bg-opacity-30 transition-all cursor-pointer">
-              <BookOpen className="w-8 h-8 mx-auto mb-2" />
+              <BookOpen className="w-8 h-8 mx-auto mb-2 text-blue-600" />
             </div>
             <span className="text-sm">Read articles</span>
           </div>
           <div className="text-center text-white">
             <div className="bg-white bg-opacity-20 rounded-lg p-4 mb-2 hover:bg-opacity-30 transition-all cursor-pointer">
-              <Building className="w-8 h-8 mx-auto mb-2" />
+              <Building className="w-8 h-8 mx-auto mb-2 text-blue-600" />
             </div>
             <span className="text-sm">For healthcare providers</span>
           </div>
